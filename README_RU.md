@@ -268,26 +268,25 @@ sudo easytier-core --network-name mysharednode --network-secret mysharednode
 
 После успешной настройки сети вы можете легко настроить её автоматический запуск при загрузке системы. Смотрите руководство по однокомандной регистрации в качестве службы для получения информации о регистрации EasyTier как системной службы.
 
-Связанные проекты
-ZeroTier: глобальная виртуальная сеть для подключения устройств.
+## Связанные проекты
 
-TailScale: VPN-решение для упрощения настройки сети.
+- [ZeroTier](https://www.zerotier.com/): глобальная виртуальная сеть для подключения устройств.
+- [TailScale](https://tailscale.com/): VPN-решение для упрощения настройки сети.
 
-Связаться с нами
-💬 Группа в Telegram
+### Связаться с нами
 
-👥 Группы в QQ
+- 💬 **[Telegram](https://t.me/easytier)**
+- 👥 **[QQ]**
+  - No.1 [949700262](https://qm.qq.com/q/wFoTUChqZW)
+  - No.2 [837676408](https://qm.qq.com/q/4V33DrfgHe)
+  - No.3 [957189589](https://qm.qq.com/q/YNyTQjwlai)
 
-Группа 1 949700262
+## Лицензия
 
-Группа 2 837676408
+EasyTier распространяется под лицензией [LGPL-3.0](https://github.com/EasyTier/EasyTier/blob/main/LICENSE).
 
-Группа 3 957189589
+## Поддержка
 
-Лицензия
-EasyTier распространяется под лицензией LGPL-3.0.
-
-Поддержка
 Ускорение доставки контента (CDN) и защита этого проекта обеспечиваются спонсорством Tencent Cloud EdgeOne.
 
 <p align="center"> <a href="https://edgeone.ai/?from=github" target="_blank"> <img src="assets/edgeone.png" width="200"> </a> </p>

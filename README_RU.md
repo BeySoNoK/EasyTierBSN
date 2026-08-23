@@ -220,13 +220,14 @@ EasyTier может работать как WireGuard-сервер, позвол
 
 ```mermaid
 flowchart LR
-ios[[iPhone<br/>WireGuard Installed]]
 
-subgraph Node A Public IP 22.1.1.1
+ios[[iPhone<br/>с установленным WireGuard]]
+
+subgraph Узел A с публичным IP 22.1.1.1
 nodea[EasyTier<br/>10.144.144.1]
 end
 
-subgraph Node B
+subgraph Узел B
 nodeb[EasyTier<br/>10.144.144.2]
 end
 

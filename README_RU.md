@@ -70,7 +70,7 @@ cargo install --git https://github.com/EasyTier/EasyTier.git easytier
 ```
 Скачать предварительно скомпилированные файлы (рекомендуется, доступно для всех платформ)
 
-Установка через Docker
+[Установка через Docker](https://easytier.cn/guide/installation.html#%25D0%25A3%25D1%2581%25D1%2582%25D0%25B0%25D0%25BD%25D0%25BE%25D0%25B2%25D0%25BA%25D0%25B0-%25D1%2587%25D0%25B5%25D1%2580%25D0%25B5%25D0%25B7-docker)
 
 Установка пакета ipk для OpenWrt
 

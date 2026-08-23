@@ -204,7 +204,7 @@ sudo easytier-core -i 10.144.144.2 -n 10.1.1.0/24
 # Просмотр маршрутной информации
 easytier-cli route
 ```
-https:///assets/image-3.png
+![Routing Information](https:///assets/image-3.png)
 
 Проверьте доступность узлов в проксируемой подсети:
 

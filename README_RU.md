@@ -51,19 +51,23 @@
 Linux (рекомендуется):
 ```bash
 curl -fsSL "https://github.com/EasyTier/EasyTier/blob/main/script/install.sh?raw=true" | sudo bash -s install
+```
 Homebrew (MacOS/Linux):
 
-bash
+```bash
 brew tap brewforge/chinese
 brew install --cask easytier-gui
+```
 Windows (рекомендуется, запуск от имени администратора):
 
-powershell
+```powershell
 irm "https://github.com/EasyTier/EasyTier/blob/main/script/install.ps1?raw=true" | iex
+```
 Установка через cargo (последняя разрабатываемая версия):
 
-bash
+```bash
 cargo install --git https://github.com/EasyTier/EasyTier.git easytier
+```
 Скачать предварительно скомпилированные файлы (рекомендуется, доступно для всех платформ)
 
 Установка через Docker
@@ -84,22 +88,25 @@ EasyTier поддерживает быстрое построение сети �
 
 На узле A выполните:
 
-bash
+```bash
 # Запуск от имени администратора
 sudo easytier-core -d --network-name abc --network-secret abc -p tcp://<IP_общего_узла>:11010
+```
 На узле B выполните:
 
-bash
+```bash
 # Запуск от имени администратора
 sudo easytier-core -d --network-name abc --network-secret abc -p tcp://<IP_общего_узла>:11010
+```
 После успешного запуска вы можете проверить состояние сети с помощью easytier-cli:
 
-text
+```text
 | ipv4         | hostname       | cost  | lat_ms | loss_rate | rx_bytes | tx_bytes | tunnel_proto | nat_type | id         | version         |
 | ------------ | -------------- | ----- | ------ | --------- | -------- | -------- | ------------ | -------- | ---------- | --------------- |
 | 10.126.126.1 | abc-1          | Local | *      | *         | *        | *        | udp          | FullCone | 439804259  | 2.6.2-70e69a38~ |
 | 10.126.126.2 | abc-2          | p2p   | 3.452  | 0         | 17.33 kB | 20.42 kB | udp          | FullCone | 390879727  | 2.6.2-70e69a38~ |
 |              | PublicServer_a | p2p   | 27.796 | 0.000     | 50.01 kB | 67.46 kB | tcp          | Unknown  | 3771642457 | 2.6.2-70e69a38~ |
+```
 Вы можете проверить связность между узлами:
 
 bash

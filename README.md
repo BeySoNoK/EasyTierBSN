@@ -9,7 +9,7 @@
 [![GitHub Test Actions](https://github.com/EasyTier/EasyTier/actions/workflows/test.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/workflows/test.yml)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/EasyTier/EasyTier)
 
-[简体中文](/README_CN.md) | [English](/README.md)
+[简体中文](/README_CN.md) | [English](/README.md) | [Русский](/README_RU.md)
 
 > ✨ A simple, secure, decentralized virtual private network solution powered by Rust and Tokio
 

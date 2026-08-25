@@ -295,4 +295,4 @@ EasyTier распространяется под лицензией [LGPL-3.0](h
 <p align="center"> <a href="https://langlangy.cn/?i26c5a5" target="_blank"> <img src="assets/langlang.png" width="200"> </a> <a href="https://langlangy.cn/?i26c5a5" target="_blank"> <img src="assets/raincloud.png" width="200"> </a> </p>
 Если EasyTier оказался для вас полезен, рассмотрите возможность поддержки проекта. Разработка и поддержка программного обеспечения требуют много времени и усилий, и ваша поддержка поможет нам лучше развивать и улучшать EasyTier.
 
-<p align="center"> <img src="assets/wechat.png" width="200"> <img src="assets/alipay.png" width="200"> </p> ```
+<p align="center"> <img src="assets/wechat.png" width="200"> <img src="assets/alipay.png" width="200"> </p>
